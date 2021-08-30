@@ -3,110 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width= , initial-scale=1.0">
     <title>my first HTML project</title>
     <style>
+.vertical{
+    width: 500px;
+      background-color:brown;
+      height:1200px;
+      float: left;
+      border-right: 50px ridge rgb(236, 214, 9) ;
+      border-radius: 2px;
+}
+.heading-1{
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+    color: darkblue;
 
+}
+.heading-2{
+    float:right;
+    margin-top: 100px;
+    margin-right: 40px;
+    color: green;
+}
+.heading-3{
+    float: right;
+    margin-top: 100px;
+    margin-right: 40px;
+    color:maroon;
+
+}
+#name-info{
+    float: right;
+    margin-right: 100px;
+   margin-top: 130px;
+      
+
+
+}
 body{
-    background-color: rgba(255, 0, 13, 0.212);
-    font-size: larger;
-    text-decoration:none;
+    background-color:rgb(179, 182, 185);
+    
+    
+}
+.company-info{
+    float: right;
+    margin-top: 90px;
+    width: 12%;
+    margin-left:890px;
+    margin-right: 200px;
 }
 
-h2{
-    color: rgba(11, 240, 106, 0.979);
-    font-weight:bolder;
-    font-size: 50px;
+.contact-info{
+    color: black;
 }
- #rdt-info {
-    background-color: cornflowerblue;
+.heading{
+    float: right;
+    margin-right:200px;
+    
 }
-.first-info{
-    background-color: cadetblue;
+#footer{
+    position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            height: 40px;
+            background: grey;
+            text-align: center;
 }
 
-    </style>
+    </style>   
 </head>
 <body>
-    <h1 id="rdt-info"> Information about RDT</h>
-    <img src ="https://www.cnet.com/reviews/lifx-z-wi-fi-led-light-strip-starter-kit-review/" alt="showing the outdoor spa light" width="500"/>
-    <a href="#more-info">know more about company</a>
-   <p>
-       <strong> 
-         Aboutservices we are offering and <em>of our product</em> .</strong> 
-   </p> 
-<h2> here is the product Details</h2>
+   <div class = 'vertical'></div> 
+  
+   <div class="heading" >
+   <h1 class='heading-1'><strong>t</strong></h1><h1 class="heading-2"><strong>D</strong></h1><h1 class="heading-3"><strong>R</strong></h1>
+   <p> RISING DRAGON TECH</p>
+</div>
+<div class="company-info">
+<h2><strong>About company</strong></h2>
+<p>Guangzhou Rising Dragon Electronics & Plastic Technology Co.,Ltd.
+began in 2000 with the establishment of Zhongshan Rising Dragon Foreign Technology Co.,Ltd.
+We've Been operating as a professional enterprise in the LED industry for 11 years since 
+the first LED-Light product was produced in our factory in 2000. 
+</p>
+<h2><strong>Product Information</strong></h2>
 <ul>
-    <li> spa and pool ass  </li>
-    <li>decorative lights </li>
-    <li>power supply </li>
-    <li>spa and pool light</li>
+<li ><a class="contact-info" href="http://www.risingdragonlighting.com/product.php?left=2">Our Product</a> </li>
+<li><a class="contact-info" href="http://www.risingdragonlighting.com/download.php?left=3" >Download</a></li>
+<li><a class="contact-info" href="http://www.risingdragonlighting.com/contact.php?left=4" >Contact</a></li>
 </ul>
-
-   <h2> Contact Address </h2>
-
-   <p class="first-info">
-       here i am going to share the contact details of  those persons who are dealing with onlinw <br>
-       offline sale . In this project, you'll use everything you've learned so far to create a travel <br>
-       website enticing viewers to visit an exotic locale.  You should have images of what they'll see<br>
-        lists of things to see and places to go and paragraphs of enticing details.<br>
-        You should also use CSS to style the website, using a mix of the simple selectors you've learned<br>
-   </p>
-   <h2> Detail address of all sales employee </h2>
-   <p class="first-info">
-       here is the address/contact number with their names :<br>
-      <ol>
-     <li><strong class="first-info"> edward =13254517439 </strong> </li> 
-     <li> <strong class="first-info"> oliver = 1424564484 </strong></li>
-    <li><strong class="first-info">alex =1316845416</strong></li>
-
-      </ol>
- 
-   </p>
-   <p>for more information you check the link below: </p>
-   <a href="http://www.risingdragonlighting.com/about.php?left=1">you can get more information</a>
-   <h3>About the company</h3>
-   <p id="more-info">
-    Guangzhou Rising Dragon Electronics & Plastics Technology Co., Ltd. began in 2000 with the establishment of Zhongshan Rising Dragon Foreign Technology Co., Ltd. <br>
-    We've been operating as a professional enterprise in the LED industry for 13 years since the first LED-light product was produced in our factory in 2000. <br>
-    The products cover LED screen pixel lights, building lights, underwater lights as well as residential LED lights. Being a membership of China Lighting Association,<br> 
-    we've obtained more than 20 patents worldwide.Rising Dragon is a truly unique company blending both Western and Chinese business principles and best practices.<br>
-     This makes company open-minded, creative, innovative, competitive, and solution oriented. We are not only a manufacturer of LED products, <br>
-     but the designer of customized LED projects.
-   </p>
-   <h3>Product specifications </h3>
-   <table>
-<thead>
-    <tr>
-    <th> Name</th>
-    <th>   </th>
-    <th>   input voltage</th>
-    <th>   </th>
-    <th>      total power</th>
-    </tr>
-</thead>
-<tbody>
-<tr>
-<td> Pool light </td>
-<td>   </td>
-<td> 12VAC </td>
-<td>     </td>
-<td> 40W </td>
-</tr>
-<tr>
-    <td> spa light </td>
-    <td>   </td>
-    <td> 5VAC </td>
-    <td>     </td>
-    <td> 3W </td>
-    </tr>
+</div>
+<div id="footer">Guangzhou Rising Dragon Electronics & Plastic Technology co;Ltd.</div>
 
 
-
-</tbody>
-
-
-
-   </table>
 </body>
 </html>
